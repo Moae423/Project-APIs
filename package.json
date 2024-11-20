@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./public/css/main.css -o ./public/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,11 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.7",
+    "daisyui": "^4.12.14",
     "ejs": "^3.1.10",
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
   }
 }
