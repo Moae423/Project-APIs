@@ -4,20 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/1.css">
   <title>Project APIs</title>
 </head>
-<body>
-    <header>
-        <%- include('partials/navbar') %>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-gray-800 text-white">
+        <%- include('partials/navbar.ejs') %>
     </header>
-    <main>
-        <section class="min-h-screen">
-            <div class="hero py-8 px-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit iure accusamus dolore?</p>
-            </div>
-        </section>
+    <main class="flex-grow">
+        <%- include('partials/main.ejs') %>
     </main>
-    <footer>
+    <footer class="bg-gray-800 text-white text-center p-4">
         <%- include('partials/footer.ejs') %>
     </footer>
 </body>
