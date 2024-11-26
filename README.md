@@ -4,20 +4,20 @@ Panduan ini menjelaskan cara menginstal dan mengatur **Express.js**, **Express L
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menginstal:
+pastinya udah ada Node.Js dong:
 - [Node.js](https://nodejs.org/) (versi terbaru)
 - NPM (termasuk dengan instalasi Node.js)
 
 ## Langkah Instalasi
 
-### 1. Inisialisasi Proyek
-1. Buat direktori baru untuk proyek Anda:
+### 1. Installasi Project
+1. Buat direktori baru:
    ```bash
    mkdir my-express-app
    cd my-express-app
-2. Inisialisasi proyek Node.js:
+2. Inisialisasi Project Node.js:
     ```bash
     npm init -y
-### 2. Install Package
-```bash
-npm i express express-ejs-layouts axios body-parser;
+3. Install Package
+    ```bash
+    npm i express express-ejs-layouts axios body-parser
