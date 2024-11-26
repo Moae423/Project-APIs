@@ -25,16 +25,18 @@ app.post("/show", async (req,res) => {
     const result = await axios.get(`${API_URL}/${category}`);
     const jokeData = result.data;
 
-    if (jokeData.type == "twopart") {
-        res.render("index", {
+    if (jokeData.type === "twopart") {
+        res.render("show", {
             setup: jokeData.setup,
+            category: jokeData.category,
             delivery: jokeData.delivery
         })
     }
-    else if (jokeData.type == "single") {
-        res.render("index", {
+    else if (jokeData.type === "single") {
+        res.render("show", {
             setup: null,
             delivery: null,
+            category: jokeData.category,
             joke: jokeData.joke
         })
     }
