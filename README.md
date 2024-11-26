@@ -20,4 +20,7 @@ pastinya udah ada Node.Js dong:
     npm init -y
 3. Install Package
     ```bash
-    npm i express express-ejs-layouts axios body-parser
+    npm Install
+4. Run Project!
+    ```bash
+    nodemon ./index.js
