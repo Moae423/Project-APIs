@@ -15,3 +15,6 @@ Sebelum memulai, pastikan Anda telah menginstal:
    ```bash
    mkdir my-express-app
    cd my-express-app
+2. Inisialisasi proyek Node.js:
+```bash
+    npm init -y
