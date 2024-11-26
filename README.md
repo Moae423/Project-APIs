@@ -18,3 +18,6 @@ Sebelum memulai, pastikan Anda telah menginstal:
 2. Inisialisasi proyek Node.js:
     ```bash
     npm init -y
+### 2. Install Package
+```bash
+npm i express express-ejs-layouts axios body-parser;
