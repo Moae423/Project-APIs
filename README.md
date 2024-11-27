@@ -11,16 +11,10 @@ pastinya udah ada Node.Js dong:
 ## Langkah Instalasi
 
 ### 1. Installasi Project
-1. Buat direktori baru:
-   ```bash
-   mkdir my-express-app
-   cd my-express-app
-2. Inisialisasi Project Node.js:
-    ```bash
-    npm init -y
-3. Install Package
+1. Download or Clone project ini:
+2. Install Package
     ```bash
     npm Install
-4. Run Project!
+3. Run Project!
     ```bash
     nodemon ./index.js
