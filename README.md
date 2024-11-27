@@ -1,12 +1,10 @@
 # Joke Of The Year 
-Ini merupakan project menggunakan API dari https://sv443.net/jokeapi/v2/ untuk mendapatkan data joke.
+Ini merupakan project menggunakan API dari [JokeAPIs](https://sv443.net/jokeapi/v2/) untuk mendapatkan data joke.
 project ini menggunakan express js dan axios dari server side dan menggunakan Tailwind sebagai CSS nya
 
-## Prasyarat
-
-pastinya udah ada Node.Js dong:
-- [Node.js](https://nodejs.org/) (versi terbaru)
-- NPM (termasuk dengan instalasi Node.js)
+## NOTE!!!!
+Pastikan Node.Js nya sudah update ke versi v22.11.0:
+- [Node.js](https://nodejs.org/) untuk mendapatkan (versi terbaru (v22.11.0))
 
 ## Langkah Instalasi
 
