@@ -1,6 +1,6 @@
-# Express.js Project Joke Of The Year Setup
-
-Panduan ini menjelaskan cara menginstal dan mengatur project joke of the year.
+# Joke Of The Year 
+Ini merupakan project menggunakan API dari https://sv443.net/jokeapi/v2/ untuk mendapatkan data joke.
+project ini menggunakan express js dan axios dari server side dan menggunakan Tailwind sebagai CSS nya
 
 ## Prasyarat
 
